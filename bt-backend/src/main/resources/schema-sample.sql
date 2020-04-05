@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS sample_data;
+CREATE TABLE IF NOT EXISTS sample_data (
+    sample_id   BIGINT(20)  PRIMARY KEY AUTO_INCREMENT,
+    sample_name VARCHAR(50)  NOT NULL UNIQUE,
+    sample_text VARCHAR(255) NOT NULL
+);
