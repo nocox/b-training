@@ -1,0 +1,13 @@
+version: "3.7"
+services:
+  db:
+    image: mysql:8.0.16
+    container_name: bt-mysql
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: 1
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: btraining
+      MYSQL_USER: btraining_user
+      MYSQL_PASSWORD: btraining_pass
+    ports:
+      - "3306:3306"
