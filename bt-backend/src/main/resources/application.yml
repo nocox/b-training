@@ -4,3 +4,5 @@ spring:
     username: btraining_user
     password: btraining_pass
     driverClassName: com.mysql.cj.jdbc.Driver
+    platform: sample
+    initialization-mode: always
