@@ -23,7 +23,7 @@ public class DemoController {
 
     @GetMapping("/sample")
     public String sample(Model model){
-        model.addAttribute("message", "ここにメッセージを入れるよ");
+        model.addAttribute("message", "やってやるぜ！");
         return "template_sample";
     }
 
