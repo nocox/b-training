@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/btraining?sslMode=DISABLED
-    username: btraining_user
-    password: btraining_pass
+    url: ${BT_DB_URL}
+    username: ${BT_DB_USERNAME}
+    password: ${BT_DB_PASSWORD}
     driverClassName: com.mysql.cj.jdbc.Driver
     platform: sample
     initialization-mode: always
