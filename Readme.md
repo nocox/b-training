@@ -40,9 +40,12 @@ BT_DB_PASSWORD=btraining_pass
 その後．環境変数をIntellijに設定します．以下の順序で設定場所に遷移．
 > Edit Configurations... > Environment > Environment variables
 
-ここに画像
+![image](https://user-images.githubusercontent.com/50159106/79681845-8054de80-8258-11ea-83a2-62683b84aca9.png)
+
+![image](https://user-images.githubusercontent.com/50159106/79681817-1e947480-8258-11ea-8b91-3118960462ec.png)
 
 このボタンを押すとクリップボード内の環境変数を貼り付けられる．
+![image](https://user-images.githubusercontent.com/50159106/79681821-281ddc80-8258-11ea-8562-4d4b9f11682d.png)
 
 
 
